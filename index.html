@@ -54,23 +54,18 @@ X<!DOCTYPE html>
             color: #0057b7;
             text-decoration: underline;
         }
-   .protest-flyer-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
-        margin-top: 20px;
-    }
+.protest-flyer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 16px;
+    margin-top: 20px;
+}
 
-    .protest-flyer-grid .flyer {
-        width: 50%;
-        box-sizing: border-box;
-    }
-
-    .protest-flyer-grid .flyer img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
+.protest-flyer-grid .flyer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
     </style>
 </head>
